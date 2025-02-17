@@ -23,6 +23,10 @@ body {
 	margin: 0;
 }
 
+p {
+	margin: 0;
+}
+
 .layout-grid {
 	display: grid;
 	grid-template-columns: 0px 1fr 0px;
@@ -68,6 +72,7 @@ body {
 			"johnathan jeanette"
 			"patrick patrick"
 			"kira kira";
+		gap: 2rem;
 	}
 
 	@media screen and (width >= 90rem) {
@@ -84,7 +89,7 @@ body {
 	padding: 2rem;
 	display: flex;
 	flex-direction: column;
-	gap: 0 1rem;
+	gap: 1rem;
 
 	/* styles */
 	border-radius: 0.5rem;
@@ -148,6 +153,20 @@ body {
 }
 .kira {
 	grid-area: kira;
+
+	/* styles */
+
+	p:nth-child(odd) {
+		color: var(--grey-500);
+	}
+
+	p:nth-child(2) {
+		color: var(--grey-300);
+	}
+
+	blockquote {
+		color: var(--grey-400);
+	}
 }
 
 blockquote {
