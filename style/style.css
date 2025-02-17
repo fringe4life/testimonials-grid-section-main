@@ -238,6 +238,7 @@ blockquote {
 
 /* footer */
 footer {
+	margin-top: 1rem;
 	grid-area: footer;
 	.attribution {
 		font-size: 11px;
