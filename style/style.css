@@ -27,6 +27,7 @@ body {
 
 main {
 	font-size: 0.8125rem;
+	font-weight: 500;
 }
 
 p {
@@ -128,8 +129,14 @@ p {
 
 			/* layout */
 			grid-row: 1 / span 2;
+			align-self: center;
 		}
 	}
+}
+
+.highlight {
+	font-size: 1.25rem;
+	font-weight: 600;
 }
 
 .daniel {
