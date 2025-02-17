@@ -88,7 +88,7 @@ main {
 	}
 
 	@media screen and (width >= 90rem) {
-		grid-template-columns: repeat(4, 19.1875rem);
+		grid-template-columns: repeat(4, 15.9375rem);
 		grid-template-areas:
 			"daniel daniel johnathan kira"
 			"jeanette patrick patrick kira";
