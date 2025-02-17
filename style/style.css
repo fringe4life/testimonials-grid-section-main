@@ -106,7 +106,7 @@ body {
 	grid-area: johnathan;
 
 	/* styles */
-	background-color: var(--purple-500);
+	background-color: var(--grey-500);
 
 	header p:nth-child(2) {
 		color: var(--grey-200);
@@ -117,6 +117,19 @@ body {
 }
 .jeanette {
 	grid-area: jeanette;
+
+	/* styles */
+	background-color: var(--white);
+
+	p:first-of-type,
+	p:nth-child(3) {
+		color: var(--grey-500);
+	}
+
+	p:nth-child(2),
+	blockquote {
+		color: var(--grey-400);
+	}
 }
 .patrick {
 	grid-area: patrick;
