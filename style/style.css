@@ -63,7 +63,7 @@ p {
 		"patrick"
 		"kira"
 		"kira";
-	gap: 0 2rem;
+	gap: 2rem;
 
 	@media screen and (width >= 48rem) {
 		grid-template-columns: repeat(2, 1fr);
@@ -72,7 +72,6 @@ p {
 			"johnathan jeanette"
 			"patrick patrick"
 			"kira kira";
-		gap: 2rem;
 	}
 
 	@media screen and (width >= 90rem) {
