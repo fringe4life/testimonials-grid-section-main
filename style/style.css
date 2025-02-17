@@ -57,6 +57,22 @@
 	gap: 0 1rem;
 }
 
+.daniel {
+	grid-area: daniel;
+}
+.johnathan {
+	grid-area: johnathan;
+}
+.jeanette {
+	grid-area: jeanette;
+}
+.patrick {
+	grid-area: patrick;
+}
+.kira {
+	grid-area: kira;
+}
+
 footer {
 	.attribution {
 		font-size: 11px;
