@@ -108,7 +108,7 @@ body {
 	/* styles */
 	background-color: var(--grey-500);
 
-	header p:nth-child(2) {
+	p:nth-child(2) {
 		color: var(--grey-200);
 	}
 	blockquote {
@@ -133,6 +133,17 @@ body {
 }
 .patrick {
 	grid-area: patrick;
+
+	/* styles */
+	background-color: var(--dark-blue);
+
+	p:nth-child(3) {
+		color: var(--grey-200);
+	}
+
+	blockquote {
+		color: var(--grey-100);
+	}
 }
 .kira {
 	grid-area: kira;
