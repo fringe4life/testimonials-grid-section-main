@@ -84,6 +84,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 0 1rem;
+
+	/* styles */
+	border-radius: 0.5rem;
 }
 
 .daniel {
