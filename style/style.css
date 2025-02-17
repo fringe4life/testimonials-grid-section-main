@@ -89,6 +89,10 @@ body {
 	grid-area: kira;
 }
 
+blockquote {
+	margin: 0;
+}
+
 footer {
 	grid-area: footer;
 	.attribution {
