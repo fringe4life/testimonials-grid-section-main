@@ -16,6 +16,39 @@
 	}
 }
 
+.testimonial-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	grid-template-areas:
+		"daniel"
+		"daniel"
+		"johnathan"
+		"jeanette"
+		"patrick"
+		"patrick"
+		"kira"
+		"kira";
+	gap: 0 2rem;
+
+	@media screen and (width >= 48rem) {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas:
+			"daniel daniel"
+			"johnathan jeanette"
+			"patrick patrick"
+			"kira kira";
+	}
+
+	@media screen and (width >= 90rem) {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-areas:
+			"daniel daniel johnathan kira"
+			"jeanette patrick patrick kira";
+		gap: 1.5rem 2rem;
+	}
+}
+
 footer {
 	.attribution {
 		font-size: 11px;
