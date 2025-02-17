@@ -107,25 +107,29 @@ p {
 			200,
 			0.3
 		) 2px 0px 10px, rgba(200, 200, 200, 0.3) -2px 0px 10px;
-}
+	/* header layout */
+	header {
+		display: grid;
+		grid-template-columns: 1.75rem 1fr;
+		grid-template-rows: auto auto;
+		gap: 0.25rem 1rem;
 
-.testimonial header img {
-	/* size */
-	width: 1.75rem;
-	height: 1.75rem;
+		.verified {
+			font-size: 0.6875rem;
+		}
 
-	/* styles */
-	border-radius: 50%;
+		img {
+			/* size */
+			width: 1.75rem;
+			height: 1.75rem;
 
-	/* layout */
-	grid-row: 1 / span 2;
-}
+			/* styles */
+			border-radius: 50%;
 
-.testimonial header {
-	display: grid;
-	grid-template-columns: 1.75rem 1fr;
-	grid-template-rows: auto auto;
-	gap: 0.25rem 1rem;
+			/* layout */
+			grid-row: 1 / span 2;
+		}
+	}
 }
 
 .daniel {
