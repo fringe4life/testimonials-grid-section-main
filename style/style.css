@@ -87,7 +87,17 @@ body {
 }
 
 .daniel {
+	/* layout */
 	grid-area: daniel;
+
+	/* styles */
+	background-color: var(--purple-500);
+	color: var(--white);
+
+	header p:first-of-type,
+	blockquote {
+		color: var(--purple-50);
+	}
 }
 .johnathan {
 	grid-area: johnathan;
