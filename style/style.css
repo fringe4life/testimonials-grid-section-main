@@ -171,6 +171,14 @@ blockquote {
 	blockquote {
 		color: var(--purple-50);
 	}
+	@media screen and (width >= 48rem) {
+		background-image: url(../images/bg-pattern-quotation.svg);
+		background-repeat: no-repeat;
+		background-position: 68% 0%;
+	}
+	@media screen and (width >= 90rem) {
+		background-position: 69.5% 0%;
+	}
 }
 .johnathan {
 	grid-area: johnathan;
