@@ -28,6 +28,7 @@ body {
 main {
 	font-size: 0.8125rem;
 	font-weight: 500;
+	line-height: 1.1;
 }
 
 p {
@@ -137,6 +138,16 @@ p {
 .highlight {
 	font-size: 1.25rem;
 	font-weight: 600;
+	line-height: 1.2;
+}
+
+blockquote {
+	margin: 0;
+	line-height: 1.4;
+}
+
+.purple-border {
+	border: 2px solid purple;
 }
 
 .daniel {
@@ -146,7 +157,7 @@ p {
 	/* styles */
 	background-color: var(--purple-500);
 
-	header p:nth-child(2),
+	p:nth-child(3),
 	blockquote {
 		color: var(--purple-50);
 	}
@@ -157,10 +168,8 @@ p {
 	/* styles */
 	background-color: var(--grey-500);
 
-	p:nth-child(2) {
-		color: var(--grey-200);
-	}
-	blockquote {
+	blockquote,
+	.verified {
 		color: var(--grey-100);
 	}
 }
@@ -171,11 +180,11 @@ p {
 	background-color: var(--white);
 
 	p:first-of-type,
-	p:nth-child(3) {
+	.highlight {
 		color: var(--grey-500);
 	}
 
-	p:nth-child(2),
+	.verified,
 	blockquote {
 		color: var(--grey-400);
 	}
@@ -199,21 +208,15 @@ p {
 
 	/* styles */
 
-	p:nth-child(odd) {
+	header p:first-of-type,
+	.highlight {
 		color: var(--grey-500);
 	}
 
-	p:nth-child(2) {
-		color: var(--grey-300);
-	}
-
-	blockquote {
+	blockquote,
+	.verified {
 		color: var(--grey-400);
 	}
-}
-
-blockquote {
-	margin: 0;
 }
 
 footer {
