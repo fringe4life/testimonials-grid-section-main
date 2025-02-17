@@ -12,9 +12,12 @@ body {
 .layout-grid {
 	display: grid;
 	grid-template-columns: 0px 1fr 0px;
-	/* TODO: make rows responsive */
 	grid-template-rows: 4.5625rem auto auto 4.5625rem;
-	/* TODO: make column gap responsive */
+	grid-template-areas:
+		". ........... ."
+		". testimonial ."
+		". footer ."
+		". ........... .";
 	gap: 0 2.1875rem;
 
 	@media screen and (width >= 48rem) {
@@ -28,6 +31,8 @@ body {
 }
 
 .testimonial-grid {
+	grid-area: testimonial;
+
 	display: grid;
 	grid-template-columns: 1fr;
 	justify-content: center;
@@ -85,6 +90,7 @@ body {
 }
 
 footer {
+	grid-area: footer;
 	.attribution {
 		font-size: 11px;
 		text-align: center;
