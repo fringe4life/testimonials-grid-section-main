@@ -87,6 +87,7 @@ body {
 
 	/* styles */
 	border-radius: 0.5rem;
+	color: var(--white);
 }
 
 .daniel {
@@ -95,15 +96,24 @@ body {
 
 	/* styles */
 	background-color: var(--purple-500);
-	color: var(--white);
 
-	header p:first-of-type,
+	header p:nth-child(2),
 	blockquote {
 		color: var(--purple-50);
 	}
 }
 .johnathan {
 	grid-area: johnathan;
+
+	/* styles */
+	background-color: var(--purple-500);
+
+	header p:nth-child(2) {
+		color: var(--grey-200);
+	}
+	blockquote {
+		color: var(--grey-100);
+	}
 }
 .jeanette {
 	grid-area: jeanette;
