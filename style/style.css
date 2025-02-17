@@ -103,6 +103,25 @@ p {
 		) 2px 0px 10px, rgba(200, 200, 200, 0.3) -2px 0px 10px;
 }
 
+.testimonial header img {
+	/* size */
+	width: 1.75rem;
+	height: 1.75rem;
+
+	/* styles */
+	border-radius: 50%;
+
+	/* layout */
+	grid-row: 1 / span 2;
+}
+
+.testimonial header {
+	display: grid;
+	grid-template-columns: 1.75rem 1fr;
+	grid-template-rows: auto auto;
+	gap: 0.25rem 1rem;
+}
+
 .daniel {
 	/* layout */
 	grid-area: daniel;
